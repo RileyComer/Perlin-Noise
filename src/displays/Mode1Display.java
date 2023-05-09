@@ -53,7 +53,7 @@ public class Mode1Display{
 						g.setColor(new Color(0, 255, 0));
 						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*perlin[i])), line, (int)(size*perlin[i]));
 						g.setColor(new Color(0, 0, 255));
-						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*0.5)), line, (int)(size*0.5));
+						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*0.4)), line, (int)(size*0.4));
 					}
 				}else if(x==2 && y==0) {
 					int idx=pivot;
@@ -65,7 +65,7 @@ public class Mode1Display{
 						g.setColor(new Color(0, 255, 0));
 						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*perlin[idx])), line, (int)(size*perlin[idx]));
 						g.setColor(new Color(0, 0, 255));
-						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*0.5)), line, (int)(size*0.5));
+						g.fillRect(startX+size*x+(int)(i*line), startY+size*((frameH-1)-y)+(int)(size-(size*0.4)), line, (int)(size*0.4));
 					}
 				}
 			}

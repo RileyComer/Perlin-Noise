@@ -33,13 +33,13 @@ public class GameFrame {
 		//1D noise
 		length=180;
 		rand1=noise.getRand(length);
-		perlin1=noise.getPerlin(rand1);
+		perlin1=noise.getPerlin(rand1, 0.6);
 		
 		//2D noise
 		width=360;
 		height=360;
 		rand2=noise.getRand(width, height);
-		perlin2=noise.getPerlin(rand2);
+		perlin2=noise.getPerlin(rand2, 0.6);
 	}
 	 
 	public void update() {
